@@ -1,0 +1,33 @@
+$caxy-white: #fcfcfc;
+
+$caxy-gray-dk: #464646;
+$caxy-gray-md: #949494;
+$caxy-gray-lt: #e1e1e1;
+
+$caxy-red: #dd0031;
+$caxy-blue: #022a3a;
+
+@mixin h1() { font-size: 48px; }
+@mixin h2() { font-size: 32px; }
+@mixin h3() { font-size: 24px; }
+@mixin h4() { font-size: 19px; }
+@mixin h5() { font-size: 16px; }
+@mixin h6() { font-size: 13px; }
+
+body {
+  background: $caxy-white;
+}
+
+.top-nav .header {
+  background-color: $caxy-blue;
+}
+
+.posts-list-views {
+  background: $caxy-gray-lt;
+}
+
+.tagline {
+  margin: 0 0 20px 0;
+  color: $caxy-blue;
+  @include h4();
+}
